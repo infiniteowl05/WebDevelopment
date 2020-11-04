@@ -1,0 +1,244 @@
+@media screen and (max-width:916px) {
+  .navigation{
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width:784px) {
+  .nav-link{
+    padding: 12px 12px 12px 12px !important;
+  }
+}
+
+@media screen and (max-width:720px) {
+  .nav-link{
+    font-size: 18px !important;
+    padding: 12px 10px 12px 10px !important;
+  }
+}
+@media screen and (max-width:651px){
+  .nav-link{
+    font-size: 15px !important;
+    padding: 12px 8px 12px 8px !important;
+
+  }
+}
+
+
+body{
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.container{
+  padding-top:100px;
+  padding-bottom: 20px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 1500px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #D3E4EC;
+  border-radius: 50px;
+  color:#007BFF;
+}
+
+h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.navigation{
+  /*border: 1px solid #007BFF;*/
+  font-size: 25px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav-link{
+  padding: 12px 20px 12px 20px;
+  border: 2px solid #007BFF;
+  border-radius: 0px;
+}
+
+.nav-pills .nav-link{
+  border-radius: 0rem;
+}
+
+#leftNav{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#rightNav{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.nav.nav.nav-pills.nav-justified{
+  max-width: 1140px;
+  /* padding-left: 25px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-2{
+  padding-top: 50px;
+  max-width: 1140px;
+  max-height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 23px;
+}
+
+label{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.form-group{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ /* optgroup{
+  font-size: 25px;
+}*/
+
+.form-control{
+  font-size: 25px;
+  height: 50px;
+}
+
+select.form-control{
+  height: 50px !important;
+}
+input[type="text"], input[type="number"]{
+  font-size: 25px;
+}
+
+input[type="text"]::placeholder, input[type="number"]::placeholder, #selected{
+  color:#495057;/*#6c757d;*/
+  opacity:1
+  font-size: 25px;
+}
+
+input[type="range"]{
+  width: 1000px;
+}
+
+.btn{
+  margin-top: 70px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/*Result CSS*/
+#section-3 h1{
+  font-size: 50px;
+}
+.result1,.result2,.result3,.result5{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.result1{
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result1 .text{
+  padding-top: 15px;
+  font-size: 40px;
+  color: black;
+  opacity: 0.7;
+}
+
+.result1 .number{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.result2 .text{
+  font-size: 35px;
+}
+
+.result2 .number{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.result3{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.result3 .text{
+  font-size: 60px;
+  color: black;
+}
+
+/*piechart*/
+.result4 {
+  width: 80%;
+  margin: 15px auto;
+  padding-top: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+[class$="-legend"] {
+  list-style: none;
+  cursor: pointer;
+  padding-left: 0;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 24px;
+}
+
+[class$="-legend"] li {
+  display: inline-block;
+  padding: 0 50px;
+}
+
+[class$="-legend"] li.hidden {
+  text-decoration: line-through;
+}
+
+[class$="-legend"] li span {
+  border-radius: 5px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+
+/*piechart end*/
+
+.result5{
+  padding-top: 80px;
+}
