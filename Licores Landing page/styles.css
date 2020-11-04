@@ -1,0 +1,219 @@
+@media screen and (max-width:991px) {
+  header h1{
+    font-size: 55px !important;
+  }
+  .justify-content-between{
+    font-size: 28px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  footer p{
+    font-size: 28px !important;
+  }
+}
+@media screen and (max-width:767px) {
+  header h1{
+    font-size: 40px !important;
+  }
+  .login-group{
+      width: 412px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      padding: 10px !important;
+  }
+  input::placeholder{
+    font-size: 20px !important;
+  }
+
+  input[type=email],input[type=password]{
+    font-size:30px !important;
+    padding-left: 30px !important;
+  }
+  button[type=submit]{
+    width: 185px !important;
+    height: 53px !important;
+    border-radius: 20px !important;
+    font-size: 20px !important;
+  }
+  .justify-content-between{
+    display: inline !important;
+    text-align: center !important;
+    width: 412px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #remember{
+    text-align: left !important;
+    padding-left: 20px !important;
+    width: 412px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+}
+@media screen and (max-width:508px) {
+  header img{
+    width: 30% !important;
+
+  }
+  header h1{
+    font-size: 30px !important;
+  }
+  .login-group{
+      width: 350px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
+  input::placeholder{
+    font-size: 20px !important;
+  }
+
+  input[type=email],input[type=password]{
+    font-size:25px !important;
+    padding-left: 30px !important;
+  }
+  button[type=submit]{
+    width: 135px !important;
+    padding-bottom: 10px;
+  }
+  .justify-content-between{
+    font-size: 20px !important;
+    display: inline !important;
+    text-align: center !important;
+    width: 352px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #remember{
+    text-align: left !important;
+    padding-left: 15px !important;
+    width: 352px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .form-check-input {
+    width: 15px !important;
+    height: 15px !important;
+  }
+  footer p{
+    font-size: 20px !important;
+  }
+  .smGlobalBtn {
+    margin: 5px !important;
+  }
+  a img{
+    margin-bottom: 10px !important;
+  }
+}
+@media screen and (max-width:507px) {
+  .container{
+    margin-top: 94px !important;
+    width: 400px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  footer{
+    width: 300px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.container{
+  margin-top: 94px;
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+header h1{
+  text-align: center;
+  color: #31459D;
+  font-size: 69px;
+  font-weight: bold;
+}
+
+header h1 span {
+  text-transform: uppercase;
+}
+
+.capital{
+  text-transform: uppercase;
+  color: #FFC400;
+  padding-bottom: 10px;
+}
+
+.login-group{
+    width: 612px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+input::placeholder{
+  font-size: 25px;
+}
+
+input[type=email],input[type=password]{
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  padding-left: 40px;
+}
+
+button[type=submit]{
+  width: 235px;
+  height: 73px;
+  border-radius: 30px;
+  background-color: #31459D;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.justify-content-between{
+  padding-top: 27px;
+  font-size: 32px;
+}
+
+.form-check-input {
+  position: inherit;
+  width: 30px;
+  height: 20px;
+}
+
+.form-check-label{
+  padding-left: 10px;
+}
+
+.sign-up a{
+  padding-left: 10px;
+  color: #FFC400;
+  text-decoration: underline;
+}
+
+footer{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p{
+  padding-top: 25px;
+  color: #575050;
+  font-size: 32px;
+  text-align: center;
+}
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn {
+    margin: 5px;
+}
